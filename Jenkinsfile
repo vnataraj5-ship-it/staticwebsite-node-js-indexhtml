@@ -4,7 +4,7 @@ pipeline {
 
 
     environment {
-        S3_BUCKET = "staticwebsite-node-js-indexhtml"
+        S3_BUCKET = "vinay-staticpagefor-website"
         AWS_DEFAULT_REGION = "ap-south-1"
     }
 
