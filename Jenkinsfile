@@ -26,11 +26,8 @@ pipeline {
 
             steps {
 
-                sh '''
-              npm install 
-              npm build 
-            
-                  '''
+        sh 'npm install'
+        sh 'npm run build'
 
             }
 
